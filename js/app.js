@@ -49,7 +49,7 @@ $("#firstModelButton").click(function() {
 	var productNumber = "01";
 
 	var to = dappAddress;
-	var value = 0.001;
+	var value = 0.3;
 	var callFunction = "buyProduct";
 	var callArgs = "[\"" + phoneNo + "\",\"" + address + "\",\"" + productNumber + "\"]";
 	serialNumber = nebPay.call(to , value, callFunction, callArgs, {
